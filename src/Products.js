@@ -10,6 +10,7 @@ class Products extends Component {
         {ids.map(id =>
           <Product
             key={id}
+            id={id}
             name={products[id].name}
             price={products[id].price}
             description={products[id].description}
